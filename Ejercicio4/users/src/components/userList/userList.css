@@ -1,0 +1,8 @@
+.userList ul {
+  width: 60%;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
